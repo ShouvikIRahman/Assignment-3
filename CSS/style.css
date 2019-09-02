@@ -1,0 +1,298 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+body{
+    background-color:whitesmoke;
+}
+
+header{
+    width:100%;
+    float:left;
+    transition: fixed;
+    top:0;
+    background-color:whitesmoke;
+}
+.container{
+    width: 1140px;
+    margin:0 auto;
+
+}
+
+.logo-and-company-name{
+    width:20%;
+    height: 40px;
+    float:left;
+}
+
+.logo{
+  
+    width: 50%;
+    height: 40px;
+    float:left;
+}
+.logo img{
+    width:40px;
+    height:40px;
+    margin: 0 68px;
+}
+.company-name {
+    
+    width:50%;
+    height:40px;
+    float: left;
+}
+
+.company-name h2{
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 7px;}
+
+.menu {
+    width: 50%;
+    height: 40px;
+    float: left;
+
+}
+
+.menu nav ul li{
+    display:inline-block;
+    float: left;
+    margin:  9px 2px;
+    padding: 0px 17px;}   
+.menu nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.social-icons{
+    width:30%;
+    height: 40px;
+    float: left;
+    
+}
+.social-icons nav ul{
+    list-style: none;
+    
+}
+.social-icons nav ul li{
+    display:inline-block;
+    margin: 5px 15px;
+    padding: 5px 5px;
+    color:black;
+}
+.fa.fa-facebook-square{
+    color:black;
+}
+.fa.fa-twitter-square{
+    color:black;
+}
+.fa.fa-linkedin-square{
+    color:black;
+}
+.fa.fa-google-plus-square{
+    color:black;
+}
+.fa.fa-sign-in{
+    color:black;
+}
+section{
+    width:100%;
+    float:left;
+}
+.banner{
+    background:url(../Img/background.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.banner-content {
+    display: block;
+    margin: 100px 478px 100px 100px;
+    padding: 98px 98px 129px 98px;
+    background-color: rgba(255,255,255,0.5);
+}
+.banner-content h2{
+    text-align: center;
+    color:black;
+}
+.banner-content p{
+    text-align:center;
+    color:black;
+}
+
+.concept{
+    background-color:whitesmoke;
+    display: inline-block;
+    float: left;
+    width: 23%;
+    margin: 10px;
+}
+
+.text-class{
+   background-color:whitesmoke;
+}
+
+.concept h2{
+    text-align:center;
+}
+
+.concept p{
+    text-align:center;
+}
+
+.invest{
+    width:100%;
+    float:left;
+    background-color:whitesmoke;
+}
+.invest-divide{
+    background-color:#d9d9d9;
+    width:45%;
+    float:left;
+    margin: 13px 52px 13px 5px;
+}
+
+.invest-divide h2{
+    text-align:center;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.invest-divide ul{
+    text-align:left;
+    list-style:circle;
+}
+
+.invest-divide ul li{
+    margin: 5px 5px 5px 119px;
+    padding: 6px 0px 7px 0px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.blog{
+    width:100%;
+    float:left;
+    background-color:whitesmoke;
+}
+
+.blog-content h2{
+    text-align:center;
+    font-family: 'Titillium Web', sans-serif;
+    color:#0077b3;
+}
+.blog-table{
+
+    float:left;
+    width:45%;
+    margin: 8px 41px 5px 6px;
+    padding: 8px 5px 5px 5px;
+}
+.blog-table h3{
+    text-align:left;
+    font-family: 'Titillium Web', sans-serif;
+    color:#0077b3
+}
+.blog-table p{
+    text-align:left;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.random{
+    width:100%;
+    float:left;
+    background-color:#666666;
+}
+.random-div{
+    margin: 11px;
+    padding: 21px;
+}
+
+.random-div p{
+    text-align:center;
+    font-family: 'Titillium Web', sans-serif;
+}
+.trustpilot{
+    width:100%;
+    float:left;
+    background-color:whitesmoke;
+}
+.trustpilot-div{
+
+    margin: 40px;
+}
+
+.trustpilot-div h2{
+    font-family: 'Titillium Web', sans-serif;
+    color:grey;
+    text-align:center;
+}
+
+.trustpilot-div p{
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+footer{
+    width:100%;
+    float:left;
+    
+}
+
+.footer-main{
+    background-color:#999999;
+}
+
+.footer-one{
+    margin: 5px 5px 111px 5px;
+    padding: 1px 0px 5px 48px;
+    
+}
+
+
+.footer-one h2{
+    text-align:center;
+    color:white;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 4px 54px 4px 4px;
+    padding: 5px;
+}
+.footer-two{
+    width:25%;
+    float:left;
+    display:inline-block;
+}
+.footer-two h1{
+    text-align:left;
+    font-family: 'Titillium Web', sans-serif;
+    color:rgba(255,255,255,0.8);
+}
+.footer-three{
+    background-color:#336699;
+}
+.footer-four{
+    width:50%;
+    margin: 9px 8px 9px 19px;
+    padding: 15px 5px 15px 5px;
+    display:inline-block;
+}
+.footer-four p{
+    text-align:center;
+    color:white;
+    margin: 0px 1px 0px 344px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.footer-five{
+    width:40%;
+    margin: 9px 8px 9px 19px;
+    padding: 15px 5px 15px 5px;
+    display:inline-block;
+}
+.footer-five p{
+    text-align:center;
+    color:white;
+    margin: 0px 1px 0px -424px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
